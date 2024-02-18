@@ -1,0 +1,468 @@
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* Começo da estilização do navbar */
+.bg-custom{
+    background-color:  white;
+    
+}
+#navbarNavDropdown{
+    margin-right: 35px;
+}
+nav.navbar {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar navbar-expand-lg bg-custom{
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar {
+    position: relative;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo-img{
+    width: 120px;
+    height: 70px;
+}
+.icon-color{
+    color: rgb(14, 13, 13);
+}
+.dropdown-menu {
+    background-color: white;
+   
+}
+
+/* Estilize o submenu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.custom-button {
+    background-color: rgb(170, 164, 164);
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button.round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+/* Fim da estilização do navbar */
+
+
+
+/**************container ***************************/
+
+.container {
+    background-color: white;
+    display: flex;
+    width: 100%; /* Define a largura para 100% da página */
+    max-width: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+    }
+}
+
+.text {
+    width: auto;
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 400px) {
+    .text {
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 28px;
+        margin-left: 28px;
+    }
+}
+
+.container h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .container h2 {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+}
+
+.container p {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img-fluid {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-bottom: 45px;
+    border-radius: 28px;
+   
+}
+.img-fluid{
+    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
+    /* Outros estilos opcionais, como margem ou preenchimento */
+   
+}
+
+@media screen and (max-width: 600px) {
+    .img-fluid {
+        width: auto;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img-fluid {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/* Estilização do Conteiner2 */
+ .container2 {
+    background-color: white;
+    display: flex;
+   
+}
+
+@media screen and (max-width: 800px) {
+    .container2 {
+        display: block;
+        margin-left: 0; /* Reset o espaço à esquerda para telas menores */
+    }
+}
+
+.text2 {
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 130px;
+    margin-left: 60px; /* Espaço à esquerda */
+}
+
+@media screen and (max-width: 400px) {
+    .text2 {
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 28px;
+        margin-left: 28px; /* Espaço à esquerda menor */
+    }
+}
+
+.container2 h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .container2 h2 {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+}
+
+.container2 p {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagem2 {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 40px; /* Espaço à esquerda */
+    margin-bottom: 45px;
+    border-radius: 28px;
+}
+.imagem2{
+    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
+    /* Outros estilos opcionais, como margem ou preenchimento */
+   
+}
+
+@media screen and (max-width: 600px) {
+    .imagem2 {
+        width: auto;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imagem2 {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}
+
+/****************************container3*******************************/
+.container3 .detalhes {
+   display: flex;   
+}
+@media screen and (max-width: 500px) {
+    .container3 .detalhes {
+        display: block;
+         
+     }
+}
+.container3 .sub-titulo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 120px;   
+    text-transform: uppercase;
+}
+.container3 .detalhes{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-left: 90px;
+    font-family: 'Quicksand', sans-serif; 
+     
+     
+}
+.container3 {
+    margin-bottom: 40px;
+}
+
+
+.detalhes {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.part1, .part2, .part3, .part4{
+    background-color:  #4076d4;
+    border: 3px solid rgb(70, 68, 68); /* Adicione uma borda se desejar */
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.carousel-item {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    max-height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+/* Estilização Parallax */
+.parallax {
+    background-image: url('/app/assets/img-fundo3.jpeg');
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    overflow-y: hidden; /* Isso ajuda a ocultar a barra de rolagem vertical */
+}
+
+.parallax-content {
+    background-color: rgba(119, 119, 145, 0.2);
+    height: 100%; /* Isso faz com que o conteúdo ocupe toda a altura da div parallax */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Cor do texto, ajuste conforme necessário */
+    font-size: 24px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+@media screen and (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll; /* Altere para scroll em dispositivos móveis */
+        height: 40vh; /* Ajuste a altura conforme necessário */
+    }
+    
+    .parallax-content {
+        background-color:   rgba(119, 119, 145, 0.4); /* Ajuste a cor de fundo conforme necessário */
+    }
+}
+.navbar.navbar-expand-lg .nav-link {
+    color: white;
+}
+/***************************Efeito Parallax******************************/
+
+
+/* ######################## */
+
+
+
+/* ######################## */
+/*************************Sociedades***********************/
+#services-area{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-family:  'Quicksand', sans-serif;
+    display: flex;
+
+}
+.main-title{
+    margin-left: 38px;
+    font-size: 38px;
+}
+
+#services-area .container{
+    margin: 38px;
+}
+
+/* ########################################################### */
+.circle {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(207, 217, 219);
+    border-radius: 28px;
+    border: 2px solid rgb(79, 153, 221);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/****************************Efeito Parallax*******************************/
+
+/****************************Estilição de footer*******************************/
+
+
+#footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as colunas quebrem para a próxima linha em telas menores */
+    justify-content: space-around; /* Espaço igual entre as colunas */
+    align-items: flex-start; /* Alinhar as colunas ao topo */
+    padding: 25px; /* Adicionar espaçamento interno */
+    padding-top: 55px;
+}
+@media screen and (max-width: 400px) {
+    #footer-container {
+        width: 100%;
+        flex-direction: column; /* Alterar a direção para uma única coluna */
+        justify-content: flex-start; /* Alinhar o conteúdo ao topo */
+        align-items: center; /* Centralizar o conteúdo horizontalmente */
+        padding: 15px; /* Adicionar espaçamento interno */
+    }
+}
+
+
+.coluna-end, .coluna-atend, .coluna-redes-sociais {
+    flex: 1; /* Distribuir espaço igualmente entre as colunas */
+    max-width: 33%; /* Limitar a largura máxima de cada coluna em 33% */
+    padding: 15px; /* Adicionar espaçamento interno */
+    box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+    text-align: center; /* Centralizar o conteúdo no centro das colunas */
+}
+@media screen and (max-width: 600px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+@media screen and (max-width: 400px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+footer {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center; /* Centralizar o texto no centro do footer */
+    height: 300px;
+}
+
+.fab {
+    font-size: 25px;
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 50%;
+    border: white solid 0.5px;
+    color: rgb(226, 221, 224);
+}
+
+.fab:hover {
+    background-color: rgb(66, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.coluna-redes-sociais h3 {
+    margin: 0; /* Remover margem direita negativa */
+}
+
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button button {
+    margin-right: 10px; /* Espaçamento entre os botões (opcional) */
+}
+
+
+/* Estilo adicional para as colunas */
+.collapse navbar-collapse{
+    text-align: left;
+}
+navbar-nav{
+    text-align: right;
+
+}
+
+
+.carousel-item {
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    max-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}

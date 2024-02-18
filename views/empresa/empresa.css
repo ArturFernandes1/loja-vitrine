@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+  
+}
+.navbar.navbar-expand-lg .nav-link {
+    color: white;
+}
+.bg-custom{
+    background-color: #2B3035;
+}
+#navbarNavDropdown{
+    margin-right: 35px;
+}
+.nav-link{
+    color: white;
+}
+.dropdown-menu {
+    background-color: white;
+   
+}
+.navbar-nav .nav-item .nav-link:hover {
+ /*    background-color: #918d8d; */
+    color: #6c6e70; /* Altere a cor de fundo para o desejado */
+    transition: 0.6s;
+}
+
+.nav-item dropdown .dropdown-menu .dropdown-item{
+    color:  #6c6e70;
+}
+/* Estilize o submenu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.conteudo_empresa{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 140px; 
+    text-align: justify;
+  
+}
+@media screen and (max-width: 600px) {
+    .conteudo_empresa{
+        margin-top: 80px;
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-bottom: 110px; 
+        text-align: justify;
+      
+    }
+}
+.conteudo_empresa h2{
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+@media screen and (max-width: 400px) {
+    .conteudo_empresa h2{
+        font-size: 25px;
+        margin-top: 15px;
+        font-family: 'Quicksand', sans-serif;
+        letter-spacing: -0.6px;
+        
+        
+    }
+}
+.conteudo_empresa h1 hr{
+    width: 100%;
+    size: 10px;
+    color: black;
+    
+}
+.conteudo_empresa p{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+/****************************Estilição de footer*******************************/
+
+#footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que as colunas quebrem para a próxima linha em telas menores */
+    justify-content: space-around; /* Espaço igual entre as colunas */
+    align-items: flex-start; /* Alinhar as colunas ao topo */
+    padding: 15px; /* Adicionar espaçamento interno */
+}
+@media screen and (max-width: 400px) {
+    #footer-container {
+        width: 100%;
+        flex-direction: column; /* Alterar a direção para uma única coluna */
+        justify-content: flex-start; /* Alinhar o conteúdo ao topo */
+        align-items: center; /* Centralizar o conteúdo horizontalmente */
+        padding: 15px; /* Adicionar espaçamento interno */
+    }
+}
+
+
+.coluna-end, .coluna-atend, .coluna-redes-sociais {
+    flex: 1; /* Distribuir espaço igualmente entre as colunas */
+    max-width: 33%; /* Limitar a largura máxima de cada coluna em 33% */
+    padding: 15px; /* Adicionar espaçamento interno */
+    box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+    text-align: center; /* Centralizar o conteúdo no centro das colunas */
+}
+@media screen and (max-width: 600px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+@media screen and (max-width: 400px) {
+    .coluna-end, .coluna-atend, .coluna-redes-sociais {
+        flex: 1; /* Distribuir espaço igualmente entre as colunas */
+        max-width: 100%; /* Limitar a largura máxima de cada coluna em 33% */
+        padding: 15px; /* Adicionar espaçamento interno */
+        box-sizing: border-box; /* Garantir que o padding não afete o tamanho total */
+        text-align: center; /* Centralizar o conteúdo no centro das colunas */
+    }
+}
+footer {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #343641;
+    color: white;
+    text-align: center; /* Centralizar o texto no centro do footer */
+}
+
+.fab {
+    font-size: 25px;
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 50%;
+    border: white solid 0.5px;
+    color: rgb(226, 221, 224);
+}
+
+.fab:hover {
+    background-color: rgb(66, 71, 71);
+    transition-duration: 0.7s;
+}
+
+.coluna-redes-sociais h3 {
+    margin: 0; /* Remover margem direita negativa */
+}
+

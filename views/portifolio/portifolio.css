@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+  
+}
+.navbar.navbar-expand-lg .nav-link {
+    color: white;
+}
+.bg-custom{
+    background-color: #2B3035;
+}
+#navbarNavDropdown{
+    margin-right: 35px;
+}
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #6c6e70; /* Altere a cor de fundo para o desejado */
+    transition: 0.6s;
+}
+.dropdown-menu {
+    background-color: white;
+   
+}
+/* Estilize o submenu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.container {
+    margin-top: 80px;
+    margin-left: 50px; /* Alterado para 35px */
+    margin-right: 50px; /* Alterado para 35px */
+    margin-bottom: 140px;
+}
+
+.container2 {
+    margin-top: 50px;
+  /* Alterado para 35px */
+    /* Alterado para 35px */
+    
+}
+
+.container hr {
+    width: 100%;
+    color: black;
+}
+
+.container h2 {
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.container p {
+    color: black;
+    font-size: 15px;
+}
+
+
+/****************************Estilição do conteudo*******************************/
+/* ... Seu código CSS existente ... */
+
+/* Ajustes para a seção de portfólio */
+.section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 16px); /* 33.33% - 2 * 8px (espaçamento entre cartões) */
+    border: 1px solid #c2bcbc;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    line-height: 6px;
+    margin-bottom: 16px; /* Adicione espaço abaixo de cada cartão */
+}
+/* .card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 1;
+}
+ */
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Adicione esta linha para remover a margem da imagem */
+}
+
+
+.card p {
+    padding: 20px;
+    background-color: rgb(204, 200, 200);
+    margin-bottom: 0px;
+    line-height: 14.9px;
+    text-align: left;
+}
+/* Media query para telas menores ou iguais a 600px */
+@media screen and (max-width: 600px) {
+    .section {
+        flex-direction: column; /* Coloca os elementos em uma única coluna */
+        align-items: center; /* Centraliza os elementos na coluna */
+    }
+
+    .card {
+        flex-basis: 100%; /* Define a largura dos cartões para 100% da largura da coluna */
+    }
+}
+
+/* Media query para telas menores ou iguais a 400px */
+@media screen and (max-width: 400px) {
+    .section {
+        flex-direction: column; /* Coloca os elementos em uma única coluna */
+        align-items: center; /* Centraliza os elementos na coluna */
+    }
+
+    .card {
+        flex-basis: 100%; /* Define a largura dos cartões para 100% da largura da coluna */
+    }
+}
+/* Estilos adicionais conforme necessário */
+
+/* Estilização do h1 e do hr de portifolio */
+.porti{
+    margin-bottom: 10px;
+}
+.porti h1{
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.porti hr{
+    size: 10px;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.catalogo{
+    margin-bottom: 10px;
+}
+.catalogo h1{
+    margin-left: 35px;
+    margin-top: 60px;
+}
+.catalogo hr{
+    size: 10px;
+    color: black;
+    margin-left: 35px;
+    margin-right: 35px;
+}
